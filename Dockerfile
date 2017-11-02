@@ -1,3 +1,1 @@
 FROM golang:latest
-
-# Hahaha
