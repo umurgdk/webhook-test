@@ -1,7 +1,7 @@
 language: go
 
 script:
-  - echo "Travis branch: $TRAVIS_BRANCH"
-  - echo "Travis range: $TRAVIS_COMMIT_RANGE"
-  - echo "Travis tag: $TRAVIS_TAG"
-  - echo "Travis CI: $TRAVIS_CI"
+  - echo Travis branch: $TRAVIS_BRANCH
+  - echo Travis range: $TRAVIS_COMMIT_RANGE
+  - echo Travis tag: $TRAVIS_TAG
+  - echo Travis CI: $TRAVIS_CI
