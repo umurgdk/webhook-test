@@ -1,3 +1,4 @@
-FROM golang:latest
+FROM alpine:latest
 
 # Hahaha
+ENTRYPOINT echo "Hello world!"

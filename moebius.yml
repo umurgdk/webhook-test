@@ -4,10 +4,12 @@ vars:
 
 projects:
     project_1:
-        path: ./project_1
+        path: project_1
         build:
             - go build -v -o {{.out}}/project_1
+            - sleep 100; echo hello world
     project_2:
-        path: ./project_2
+        path: project_2
         build:
             - go build -v -o {{.out}}/project_2
+            - asdfg
