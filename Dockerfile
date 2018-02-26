@@ -1,4 +1,4 @@
 FROM alpine:latest
 
 # Hahaha
-ENTRYPOINT echo "I've updated in Fri 18:53"
+ENTRYPOINT echo "I've updated. Working from umurgdk.io!"
