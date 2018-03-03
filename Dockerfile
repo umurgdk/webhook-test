@@ -2,4 +2,4 @@ FROM alpine:latest
 
 # Hahaha
 ENTRYPOINT sh
-CMD ["-c", "sleep 20; echo I slept forn 20 seconds"]
+CMD ["-c", "sleep 30; echo I slept forn 30 seconds"]
