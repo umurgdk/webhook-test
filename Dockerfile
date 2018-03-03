@@ -2,4 +2,4 @@ FROM alpine:latest
 
 # Hahaha
 ENTRYPOINT echo 
-CMD "Now for the build history"
+CMD "Now for the build history. Another test"
