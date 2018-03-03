@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+RUN sleep 30
+
 # Hahaha
 ENTRYPOINT sh
-CMD ["-c", "sleep 30; echo I slept forn 30 seconds"]
+CMD ["-c", "echo hello world"]
