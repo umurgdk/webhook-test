@@ -1,4 +1,5 @@
 FROM alpine:latest
 
 # Hahaha
-ENTRYPOINT echo "I've updated. Working from umurgdk.io!"
+ENTRYPOINT echo 
+CMD "Now for the build history"
