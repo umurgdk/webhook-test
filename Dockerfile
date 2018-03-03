@@ -1,5 +1,5 @@
 FROM alpine:latest
 
 # Hahaha
-ENTRYPOINT echo 
-CMD "Now for the build history. Another test"
+ENTRYPOINT sh
+CMD ["-c", "sleep 20; echo I slept forn 20 seconds"]
