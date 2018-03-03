@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN sleep 35
+RUN sleep 25
 
 # Hahaha
 ENTRYPOINT sh
